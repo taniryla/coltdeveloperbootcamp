@@ -14,7 +14,7 @@
     <form action="/tacos">
         <p>
             <label for="username">Enter a Username</label>
-            <input id="username" type="text" placeholder='username'>
+            <input id="username" type="text" placeholder='username' name="username">
         </p>
         <p>
             <label for="password">Enter a Password:</label>
@@ -29,6 +29,20 @@
             <input id="number" type="number">
         </p>
         <input type="time">
+        <button>Submit</button>
+    </form>
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="LOLOL">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m">
+        </p>
     </form>
 </body>
 
